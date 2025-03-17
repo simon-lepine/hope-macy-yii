@@ -2,12 +2,13 @@
 
 Docker networking is not yet my strong suite so PHP/MariaDB in Docker presented a challenge (I always forget how to run them on the same Docker image)  
 I switched to Virtualbox because its so much esier to run PHP/MariaDB on the same VM  
-As detailed here:  
-	 - https://forum.yiiframework.com/t/install-composer-error-for-php-8-0-1/134310/5
-		 - This is not a bug in yii or composer, but simple version mismatch. Current version of PHP (8.0.1 in your case, 8.2.4 in my case 3) is way newer than the one expected in  - - composer.json file (8.0.0 or less).
+As detailed here: https://forum.yiiframework.com/t/install-composer-error-for-php-8-0-1/134310/5
+```text
+This is not a bug in yii or composer, but simple version mismatch. Current version of PHP (8.0.1 in your case, 8.2.4 in my case 3) is way newer than the one expected in  - - composer.json file (8.0.0 or less).
 
-		 - You have got three options here:
-			 - Use --ignore-platform-reqs as @evstevemd greatly suggests
+You have got three options here:
+	Use --ignore-platform-reqs as @evstevemd greatly suggests
+```
 
 I specifically did not save the assignment.pdf to the git repo as I assume that shouldn't be publicly accessible  
 

@@ -1,4 +1,4 @@
-##Challenges Faced:
+## Challenges Faced:
 
 Docker networking is not yet my strong suite so PHP/MariaDB in Docker presented a challenge (I always forget how to run them on the same Docker image)  
 I switched to Virtualbox because its so much esier to run PHP/MariaDB on the same VM  
@@ -12,7 +12,7 @@ You have got three options here:
 
 I specifically did not save the assignment.pdf to the git repo as I assume that shouldn't be publicly accessible  
 
-##DB State:
+## DB State:
 ```text
 SHOW FULL TABLES;
 +-------------------------+------------+

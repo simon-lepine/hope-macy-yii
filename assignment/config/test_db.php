@@ -1,8 +1,6 @@
 <?php
 $db = require __DIR__ . '/db.php';
 // test database! Important not to run tests on production or development databases
-$db['dsn'] = 'mysql:host=localhost;dbname=php_hope_macy';
-
-print_r($db);
+$db['dsn'] = 'mysql:host=0.0.0.0;dbname=php-hope-macy';
 
 return $db;

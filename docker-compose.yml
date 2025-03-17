@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: php
+    container_name: php-hope-macy
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      - DB_USERNAME=$DB_USERNAME
+    ports:
+      - "3000:8080"
+    volumes:
+      - ./:/usr/src/app
+
+volumes:
+  node_modules:
